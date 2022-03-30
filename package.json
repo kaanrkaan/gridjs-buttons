@@ -7,14 +7,14 @@
   "scripts": {
     "build": "tsc"
   },
-  "files": [
-    "src/gridjs-buttons.css"
-  ],
   "keywords": [
     "gridjs",
     "gridjs plugin",
     "table",
     "js table"
+  ],
+  "files": [
+    "dist/*"
   ],
   "author": "kaanrkaan",
   "license": "MIT",
@@ -24,9 +24,5 @@
   },
   "dependencies": {
     "gridjs": "^5.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaanrkaan/gridjs-buttons.git"
   }
 }
