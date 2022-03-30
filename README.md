@@ -1,0 +1,3 @@
+# gridjs-buttons
+Button Plugin for GridJS - Currently decided to not further develop this plugin as the gridJS itself seems to be dead...
+
