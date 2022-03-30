@@ -1,14 +1,26 @@
 {
-  "name": "gridjs-buttons",
-  "version": "alpha",
-  "description": "Button plugin for gridJS",
+  "name": "@k2k/gridjs-buttons",
+  "version": "1.0.0",
+  "description": "Button plugin for GridJS",
+  "main": "dist/intex.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "src/gridjs-buttons.css"
+  ],
+  "keywords": [
+    "gridjs",
+    "gridjs plugin",
+    "table",
+    "js table"
+  ],
   "author": "kaanrkaan",
-  "main": "intex.ts",
   "license": "MIT",
   "devDependencies": {
     "ts-loader": "^9.2.8",
-    "typescript": "^4.6.3",
-    "@faker-js/faker": "^6.0.0"
+    "typescript": "^4.6.3"
   },
   "dependencies": {
     "gridjs": "^5.0.2"
