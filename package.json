@@ -1,5 +1,5 @@
 {
-  "name": "@k2k/gridjs-buttons",
+  "name": "gridjs-buttons",
   "version": "1.0.0",
   "description": "Button plugin for GridJS",
   "main": "dist/intex.js",
