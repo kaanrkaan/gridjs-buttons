@@ -1,6 +1,6 @@
 {
   "name": "gridjs-buttons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Button plugin for GridJS",
   "main": "dist/intex.js",
   "types": "dist/index.d.ts",
