@@ -137,13 +137,13 @@ const config = {
 import { GridjsButtonsProps } from 'gridjs-buttons';
 
 const config: GridjsButtonsProps = {
-    onAdd: function (rowIds: Array<number>) {
+    onAdd: function (rowIds: Array<any>) {
         console.log('selectedIds', rowIds);
     },
-    onEdit: function (rowIds: Array<number>) {
+    onEdit: function (rowIds: Array<any>) {
         console.log('selectedIds', rowIds);
     },
-    onDelete: function (rowIds: Array<number>) {
+    onDelete: function (rowIds: Array<any>) {
         console.log('selectedIds', rowIds);
     }
 };
@@ -205,13 +205,13 @@ const config: GridjsButtonsProps = {
     },
     selectId: "",
     maxInputCount: 1,
-    onAdd: function (rowIds: Array<number>) {
+    onAdd: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     },
-    onEdit: function (rowIds: Array<number>) {
+    onEdit: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     },
-    onDelete: function (rowIds: Array<number>) {
+    onDelete: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     }
 };
@@ -373,13 +373,13 @@ const config = {
     selectId: "selectRow",
     // you can delete maxInputCount if you want to allow only 1 checkboxes selected at the time.
     maxInputCount: 1,
-    onAdd: function (rowIds: Array<number>) {
+    onAdd: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     },
-    onEdit: function (rowIds: Array<number>) {
+    onEdit: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     },
-    onDelete: function (rowIds: Array<number>) {
+    onDelete: function (rowIds: Array<any>) {
         console.log("selectedIds", rowIds);
     }
 };
