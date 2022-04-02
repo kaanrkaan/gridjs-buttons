@@ -250,7 +250,7 @@ The following examples will use id tag as selectId
 // GridJS mermaid theme
 import "gridjs/dist/theme/mermaid.css";
 //only need to import this if you are planning to use default styling
-import "gridjs-buttons/dist/src/gridjs-buttons.css";
+import "gridjs-buttons/dist/theme/gridjs-buttons.css";
 
 import { Grid, PluginPosition } from "gridjs";
 import { RowSelection } from "gridjs/plugins/selection";
@@ -347,7 +347,7 @@ new Grid({
 // GridJS mermaid theme
 import "gridjs/dist/theme/mermaid.css";
 //only need to import this if you are planning to use default styling
-import "gridjs-buttons/dist/src/gridjs-buttons.css";
+import "gridjs-buttons/dist/theme/gridjs-buttons.css";
 
 import { Grid, PluginPosition } from "gridjs";
 import { RowSelection } from "gridjs/plugins/selection";
