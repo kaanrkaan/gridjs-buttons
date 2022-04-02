@@ -38,6 +38,7 @@ export class GridjsButtons extends PluginBaseComponent<
         this.classList = GridjsButtons.defaultClassList;
         this.buttonList = GridjsButtons.defaultButtons;
 
+        // Default class list constructor
         if (props.classList) {
             const defaultButtonClassList = Object.keys(GridjsButtons.defaultClassList) as Array<keyof GridjsButtonsClassList>;
             defaultButtonClassList.forEach((key) => {
@@ -58,15 +59,15 @@ export class GridjsButtons extends PluginBaseComponent<
         }
 
         // Function checker
-        if (props.buttonList.add && props.onAdd === undefined) {
+        if (this.buttonList.add && props.onAdd === undefined) {
             console.error('You forgot to add onAdd hook to the props!')
         }
 
-        if (props.buttonList.edit && props.onEdit === undefined) {
+        if (this.buttonList.edit && props.onEdit === undefined) {
             console.error('You forgot to add onEdit hook to the function props!');
         }
 
-        if (props.buttonList.delete && props.onDelete === undefined) {
+        if (this.buttonList.delete && props.onDelete === undefined) {
             console.error('You forgot to add onDelete hook to the function props!')
         }
 

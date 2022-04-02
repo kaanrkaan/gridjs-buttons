@@ -1,5 +1,5 @@
 export interface GridjsReturnFunction {
-    (rowId: Array<any>): void;
+    (rowIds: Array<any>): void;
 }
 
 export interface GridjsButtonsClassList {
@@ -19,11 +19,11 @@ export interface GridjsButtonsEnabledButtons {
 }
 
 export interface GridjsButtonsProps {
-    classList: GridjsButtonsClassList;
-    buttonList: GridjsButtonsEnabledButtons;
-    onAdd: GridjsReturnFunction;
-    onEdit: GridjsReturnFunction;
-    onDelete: GridjsReturnFunction;
-    selectId: string;
-    maxInputCount: number;
+    classList?: GridjsButtonsClassList;
+    buttonList?: GridjsButtonsEnabledButtons;
+    onAdd?: GridjsReturnFunction;
+    onEdit?: GridjsReturnFunction;
+    onDelete?: GridjsReturnFunction;
+    selectId?: string;
+    maxInputCount?: number;
 }
