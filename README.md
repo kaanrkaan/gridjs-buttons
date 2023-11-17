@@ -170,7 +170,7 @@ const config = {
     },
     selectId: "rowSelect",
     maxInputCount: 1,
-    onAdd: () => {
+    onAdd: (rowIds) => {
 
     },
     onEdit: (rowIds) => {
@@ -295,7 +295,7 @@ const cols = [
         plugin: {
             component: RowSelection,
             props: {
-                id: (row: any) => row.cell(1).data
+                id: (row) => row.cell(1).data
             }
         },
         sort: false
@@ -327,7 +327,7 @@ new Grid({
         {
             id: 'buttons',
             component: GridjsButtons,
-            position: PluginPosition.header,
+            position: PluginPosition.Header,
             props: config
         }
     ],
@@ -424,7 +424,7 @@ new Grid({
         {
             id: 'buttons',
             component: GridjsButtons,
-            position: PluginPosition.header,
+            position: PluginPosition.Header,
             props: config
         }
     ],
